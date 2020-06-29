@@ -1,4 +1,5 @@
 
+![PHP Composer](https://github.com/quentingosset/laravel-theme/workflows/PHP%20Composer/badge.svg)
 | **Laravel**  |  **laravel-themes** |
 |---|---|
 | 5.4  | ^1.0  |
