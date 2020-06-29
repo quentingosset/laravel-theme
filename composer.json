@@ -27,12 +27,6 @@
     "spatie/phpunit-snapshot-assertions": "^2.1.0",
     "phpstan/phpstan": "^0.12.14"
   },
-  "repositories":[
-    {
-        "type": "vcs",
-        "url": "https://github.com/quentingosset/laravel-config-writer.git"
-    }
-],
   "autoload": {
     "psr-4": {
       "Nwidart\\Themes\\": "src"
