@@ -55,9 +55,6 @@
       "aliases": {
         "Theme": "Nwidart\\Themes\\Facades\\Theme"
       }
-    },
-    "branch-alias": {
-      "dev-master": "7.0-dev"
     }
   },
   "scripts": {
