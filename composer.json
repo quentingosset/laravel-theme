@@ -13,12 +13,6 @@
       "email": "quentingosset7500@hotmail.com"
     }
   ],
-  "repositories":[
-      {
-          "type": "vcs",
-          "url": "git@github.com:quentingosset/laravel-config-writer.git"
-      }
-  ],
   "require": {
     "php": "^7.2.5",
     "ext-json": "*",
@@ -33,6 +27,12 @@
     "spatie/phpunit-snapshot-assertions": "^2.1.0",
     "phpstan/phpstan": "^0.12.14"
   },
+  "repositories":[
+    {
+        "type": "vcs",
+        "url": "https://github.com/quentingosset/laravel-config-writer.git"
+    }
+],
   "autoload": {
     "psr-4": {
       "Nwidart\\Themes\\": "src"
@@ -63,6 +63,5 @@
     "test-coverage": "vendor/bin/phpunit --debug --coverage-html coverage",
     "pcf": "vendor/bin/php-cs-fixer fix --verbose"
   },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  "minimum-stability": "dev"
 }
